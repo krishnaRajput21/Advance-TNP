@@ -1,0 +1,7 @@
+#15)Find Union of Two Arrays
+arr1 = [1,2,3,5]
+arr2 = [2,3,4,6]
+
+union = list(set(arr1) | set(arr2))
+
+print(union)
